@@ -1,0 +1,24 @@
+.work_container {
+    padding-top: 50px;
+    margin-top: 30rem;
+    padding-bottom: 50rem;
+}
+
+.work_title {
+    font-size: 70px;
+    padding-top: 150px;
+    padding-left: 100px;
+    /* text-decoration: underline 1px;
+    text-underline-offset: 10px; */
+}
+
+.work_subtitle {
+    padding-left: 80px;
+}
+
+.work_hr {
+    display: inline-block;
+    margin-left: 30rem;
+    left: 38rem;
+    width: 38rem;
+}

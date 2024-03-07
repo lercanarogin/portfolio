@@ -1,0 +1,29 @@
+#main-hero_title {
+    margin-top: 150px;
+}
+
+.hero_title {
+    padding: 5px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Tourney';
+}
+
+#hero_link {
+    font-size: 30px;
+}
+
+#hero_link + #hero_link {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.name-background {
+    background-color: white;
+    color: black;
+}
+
+.lightmode .name-background {
+    background-color: black;
+    color: white;
+}

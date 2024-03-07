@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    font-family: 'Satoshi', sans-serif;
+}
+
+h2, p {
+    font-family: 'Author', sans-serif;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: #c77f10;;
+}
+
+img {
+    display: inline;
+}
+
+#title {
+    font-size: 70px;
+    padding-top: 50px;
+    padding-bottom: 60rem;
+}
+
+.lightmode h1,
+.lightmode h2,
+.lightmode p,
+.lightmode a,
+.lightmode button {
+    color: #000000; /* Black color */
+}
+
+.lightmode .bar1,
+.lightmode .bar2,
+.lightmode .bar3 {
+    background-color: black;
+}
+
+/* Define styles for links in light mode */
+.lightmode a {
+    color: #000000; /* Set default color for links in light mode */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+/* Define hover styles for links in light mode */
+.lightmode a:hover {
+    color: #c77f10; /* Change color on hover in light mode */
+}
+

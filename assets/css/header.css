@@ -107,6 +107,8 @@ nav {
 }
 
 .header_logo {
-    height: 5rem;
-    margin-right: 55rem;
+    border-radius: 50%;
+    width: 7rem;
+    margin-top: 1.5rem;
+    position: fixed;
 }

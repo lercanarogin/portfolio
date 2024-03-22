@@ -2,6 +2,9 @@
     margin-top: 150px;
 }
 
+#hero {
+}
+
 .hero_title {
     padding: 5px;
     color: #ffffff;
@@ -26,4 +29,53 @@
 .lightmode .name-background {
     background-color: black;
     color: white;
+}
+
+.crescent {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 60px 50px 0px 0px #07161f; 
+    z-index: -999;
+}
+
+.crescent1 {
+    margin-right: 73rem;
+    margin-top: -6rem;
+}
+
+.crescent2 {
+    margin-right: 70rem;
+    margin-top: 30rem;
+    box-shadow: 60px -100px 0px 0px #07161f !important; 
+}
+
+.crescent3 {
+    margin-top: 17rem;
+    margin-left: 63rem;
+    box-shadow: 50px 120px 0px 0px #07161f !important; 
+}
+
+.crescent4 {
+    box-shadow: -80px 50px 0px 0px #07161f !important; 
+    margin-top: -4rem;
+    margin-left: 70rem;
+}
+
+.circle {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    background-color: #07161f;
+    margin-left: 40rem;
+    margin-top: -5.5rem;
 }
